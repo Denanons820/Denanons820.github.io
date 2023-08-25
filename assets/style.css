@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    padding: 20px 0 0 20px;
+
+    grid-template-columns: 200px 100px;
+    background-color: rgba(23, 141, 141, 0.699);
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-rows: 1fr auto;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.item {
+    background-color: rgba(143, 169, 169, 0.699);
+    border: 3px solid black;
+    border-radius: 10px;
+    grid-row-start: 2;
+}
+
+.navigation-block {
+    grid-row-start: 1;
+
+}
